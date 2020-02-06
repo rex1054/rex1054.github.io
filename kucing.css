@@ -1,0 +1,397 @@
+@font-face {
+    font-family: 'Merriweather', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.my-body {
+    width: 1364px;
+    margin-top: 0px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.pages {
+    line-height: 0;
+}
+
+#sc1, #sc3 {
+    width: 100%;
+}
+
+#sc2 {
+    width: 40%;
+}
+
+#sc5 {
+    width: 75%;
+}
+
+#page2 {
+    overflow: hidden;
+}
+
+
+
+.bt1 {
+    position: absolute;
+    width: 165px;
+    height: 40px;
+    margin-top: 5%;
+    margin-left: 7%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bt1 img {
+    height: 24px;
+    margin-top: 8px;
+    margin-left: 20px;
+    filter: invert(100%);
+    float: left;
+}
+
+.bt1 p {
+    float: left;
+    font-family: "Merriweather";
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 8px;
+    color: white;
+}
+
+.text-page-1 {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 7%;
+    font-family: "Merriweather";
+    height: 400px;
+}
+
+h1 {
+    font-family: "PT Serif";
+    font-size: 58px;
+    color: black;
+    line-height: normal;
+}
+
+.text-page-1 h1 {
+    font-size: 58px;
+    color: white;
+    line-height: normal;
+}
+
+.bt-kuning {
+    position: absolute;
+    width: 165px;
+    height: 40px;
+    margin-top: 32%;
+    margin-left: 7%;
+    border-radius: 20px;
+    background-color: gold;
+    font-family: "Martel Sans";
+    font-size: 20px;
+}
+
+.bt-kuning p {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.welcome {
+    position: absolute;
+    margin-top: 50%;
+    background-color: lightgray;
+    margin-left: 50%;
+    width: 40%;
+    padding-bottom: 9%;
+}
+.welcome h1 {
+    margin-top: 15%;
+    font-size: 50px;
+    margin-left: 10%;
+    font-family: "PT Serif";
+}
+
+.welcome p {
+    font-family: sans-serif;
+    margin-left: 10%;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.welcome .bt-kuning {
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.welcome .bt-kuning p {
+    margin-top: 7px;
+}
+
+#page3 {
+    margin-top: -152px;
+    height: 723px;
+    overflow: hidden;
+}
+
+#container-sc3 {
+    position: absolute;
+    line-height: 0;
+    width: 100%;
+    height: 723px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#page3 h1 {
+    font-family: "PT Serif";
+    color: white;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+#page3 h2 {
+    margin-top: 22%;
+    font-size: 34px;
+    font-family: "PT Serif";
+    color: gold;
+}
+
+.inside-container-sc-3 {
+    width: 100%;
+}
+
+.page3-box {
+    float: left;
+    width: 30%;
+    height: 100px;
+}
+
+.page3-box:first-child {
+    margin-left: 5%;
+}
+
+.page3-box img {
+    width: 26%;
+    filter: invert(100%);
+}
+
+.page3-box p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    margin-top: 14%;
+}
+
+#page4 {
+    width: 100%;
+    height: 840px;
+}
+
+#page4 h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: bold;
+    color: black;
+    padding-top: 6%;
+}
+
+.article-container {
+    margin-top: 3%;
+}
+
+.page4-box {
+    float: left;
+    width: 28%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 100px;
+    background-color: aqua;
+}
+
+.page4-box:first-child {
+    margin-left: 6%;
+}
+
+.page4-box img {
+    width: 100%;
+}
+
+#page4 h4 {
+    margin-top: 6%;
+    font-size: 30px;
+    font-family: "PT Serif";
+    color: black;
+    line-height: normal;
+}
+
+.page4-box p {
+    font-family: sans-serif;
+    font-size: 19px;
+    line-height: normal;
+    color: black;
+    margin-top: 8%;
+}
+
+.page4-box .bt-kuning {
+    position: absolute;
+    width: 165px;
+    height: 40px;
+    margin-top: 0;
+    margin-left: 0;
+    border-radius: 20px;
+    background-color: gold;
+    font-family: "Martel Sans";
+    font-size: 20px;
+}
+
+.page4-box .bt-kuning p {
+    margin-top: 5%;
+}
+
+.page5-text-container {
+    position: absolute;
+    margin-top: 7%;
+    background-color: lightgray;
+    margin-left: 50%;
+    width: 50%;
+    padding-bottom: 7%;
+}
+.page5-text-container h1 {
+    margin-top: 15%;
+    font-size: 50px;
+    margin-left: 10%;
+    font-family: "PT Serif";
+}
+
+.page5-text-container p {
+    font-family: sans-serif;
+    margin-left: 10%;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#page6 {
+    height: 800px;
+}
+
+#page6 h1 {
+    padding-top: 6%;
+}
+
+#page6 .testi-box .left-testi, #page6 .testi-box .right-testi {
+    float: left;
+    width: 20%;
+    height: 254px;
+}
+
+#page6 .testi-box .left-testi img{
+    width: 20%;
+    margin-left: 36%;
+    margin-top: 36%;
+}
+
+#page6 .testi-box .right-testi img {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 36%;
+    transform: rotate(180deg);
+}
+
+#page6 .testi-box .center-testi {
+    float: left;
+    width: 60%;
+    height: 254px;
+}
+
+.center-testi img {
+    width: 80%;
+    border-radius: 50%;
+    margin-top: 11%;
+}
+
+.user-image-container {
+    width: 30%;
+    float: left;
+    height: 300px;
+}
+
+.right-text-container {
+    width: 70%;
+    float: left;
+    height: 300px;
+}
+
+.right-text-container p {
+    font-family: "Merriweather";
+    font-size: 17px;
+    line-height: normal;
+    color: black;
+    margin-top: 4%;
+}
+
+.right-text-container h5 {
+    font-family: "Merriweather";
+    font-size: 28px;
+    line-height: normal;
+    color: black;
+    margin-top: 18%;
+    margin-left: 47%;
+}
+
+.page5-img-container {
+    width: 100%;
+    margin-top: 26%;
+}
+
+.page5-img-container img {
+    float: left;
+    display: inline-block;
+    width: 25%;
+}
+
+.footer {
+    width: 100%;
+    padding-bottom: 2%;
+    height: 100px;
+}
+
+.left-foot {
+    float: left;
+    width: 39%;
+    margin-left: 11%;
+    font-family: sans-serif;
+}
+
+.left-foot p {
+    font-size: 18px;
+}
+
+.right-foot {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.right-foot-img-container {
+    float: left;
+    margin-left: 3%;
+    background-color: lightgray;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+}
+
+.right-foot-img-container:first-child {
+    margin-left: 30%;
+}
+
+.right-foot img {
+    width: 38%;
+    margin-left: 31%;
+    margin-top: 31%;
+    filter: brightness(0%);
+}
